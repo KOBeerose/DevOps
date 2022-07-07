@@ -10,7 +10,7 @@ pipeline {
         }
         stage('odc is the best') {
             steps {
-                sh 'mkdir DevOps && ls -al'
+                sh 'mkdir DevSecOps && ls -al'
             }
         }
     }
